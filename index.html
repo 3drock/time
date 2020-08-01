@@ -1,23 +1,38 @@
-<html>
-<head>
-<style>
+<html><head><style>
+    
 body{
-background-color:red;
-}
-table{
-border: 10px;
-}
-<title>My Web Page</title>
+       
+        background-color:white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+
+
+img.avatar {
+        width: 25%;
+  	border-radius: 70%;}
+button {border-radius:10%;
+  	font-size: 20px;
+  	align:center;
+  	background-color: blue;
+  	color: white;
+  	padding: 12px 90px;}
+input{padding: 12px 70px;}
+	</style>
+
 </head>
-</style>
-<table>
-<tr>
-       <th>
-        name
-</th>
-<td>
-Divij
-</td>
-</tr>
-<p textcolor="red"><b>Hey there trhis is my new website fo rythe worik and the most </b></p>
+<div align="center">
+<img src="img_avatar2.png"  alt="Avatar" class="avatar">
+	<div align=center>
+
+ <h>SignIn</h>
+<br> 
+		<input type="email" placeholder="Enter Username">
+</br><br>		<input type="password" placeholder="Enter Password">
+</br>
+<button type="click" >LoginIn</button>
+ <br><input type="checkbox" checked="checked" name="remember"> Remember me
+	</br></div>
 </html>
